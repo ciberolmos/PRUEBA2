@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+      <title>Buscar</title>
+
+<meta charset="utf-8">
+
+</head>
+
+<body>
+
+    <h2>Buscar estancia</h2>
+
+<form action="buscaragoEstancia.php" method="post">
+
+    Busqueda: <input type="text" id="busqueda" name="busqueda">
+
+<br>
+
+
+    <label for="opcion">Opciones</label>
+
+        <select id="opcion" name="opcion">
+
+            <option value="matricula" name="matricula">Matricula:</option>
+
+            <option value="fechaentrada" name="fechaentrada">Fecha de entrada:</option>
+
+            <option value="horaentrada" name="horaentrada">Hora de entrada:</option>
+
+            <option value="fechasalida" name="fechasalida">Fecha de salida:</option>
+
+            <option value="horasalida" name="horsalida">Hora de salida:</option>
+
+            <option value="codigo" name="pre">Codigo</option>
+
+        </select>
+
+<br><br>
+
+<input type="submit" id="buscar" value="buscar">
+
+
+</form>
+
+</body>
+
+</html>
